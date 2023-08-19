@@ -115,8 +115,11 @@
     justify-content: start;
     align-items: center;
     padding-bottom: 0.94rem;
-    margin-left: 0.5rem;
 
+}
+
+.recent-names{
+    margin-left: 0.5rem;
 }
 
 .recent-result:last-child{
