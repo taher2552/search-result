@@ -54,6 +54,7 @@
 
 .close-text{
     margin-left: 0.5rem;
+    font-size: 1rem;
 }
 .search-box {
     display: flex;
