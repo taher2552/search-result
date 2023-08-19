@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* general css start  */
+
+:root {
+    --white: #fff;
+    --black: #000;
+    --acc-color: #17479E;
+    --border-color: #dcdcdc;
+    --light-grey: #AAA;
+    --active-bg: #C7DBFF;
+    --search-bg: #fcfcfc;
+    --btn-red: #E73725;
+    --font-color: #505050;
+    --light-bg: #f8f8f8;
+    --save-btn: #077838;
+    --container-bg: #EEF3FC;
+}
+
+.common-fonts {
+    color: #000;
+    font-family: DM Sans;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: -0.02563rem;
+}
+
+/* general css start ends */
+
+/* page top css starts */
+
+.landing-page-container {
+    background-color: var(--white);
+}
+
+.landing-page-box {
+    max-width: 480px;
+    margin: 0 auto;
+    border:1px solid darkgrey;
+}
+
+
+.search-close{
+    padding:1rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.close-text{
+    margin-left: 0.5rem;
+}
+.search-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid grey;
+    width: 300px; /* Adjust width as needed */
+  }
+
+.search-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+
+}
+
+.search-input{
+    height: 2.875rem;
+    border: 1px solid #17479E;
+    background: var(--white);
+    border-right: none;
+    outline: none;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    width: 100%;
+    margin-left: 1rem;
+}
+
+.search-icon{
+    border: 1px solid #17479E;
+    height: 2.875rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    margin-right: 1rem;
+}
+
+.recent-search-container{
+    margin-top:1.31rem;
+    padding: 1rem;
+    padding-top: 0;
+}
+
+.recent-search{
+    color:var(--font-color);
+    margin-bottom: 0.62rem;
+}
+
+.recent-display{
+ background-color: var(--container-bg);
+ padding: 0.94rem;
+}
+
+.recent-result{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-bottom: 0.94rem;
+    margin-left: 0.5rem;
+
+}
+
+.recent-result:last-child{
+    padding-bottom: 0;
+}
